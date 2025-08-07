@@ -2,7 +2,8 @@
 
 This section traces the progression from advanced Recurrent Neural Network (RNN) models with attention to the complete dominance of the Transformer architecture, which laid the groundwork for modern Large Language Models (LLMs).
 
-* Effective Approaches to Attention-based Neural Machine Translation (Luong, et al., 2015) - A foundational paper that explores and simplifies different attention mechanisms for sequence-to-sequence models, providing a clear starting point for implementing attention on top of RNNs.1
+* [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025) (Luong, et al., 2015) - A foundational paper that explores and simplifies different attention mechanisms for sequence-to-sequence models, providing a clear starting point for implementing attention on top of RNNs.
+[(Code Repo)](https://github.com/lmthang/nmt.hybrid)
 
 * Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation (Wu, et al., 2016) - Showcases the power of a deep LSTM network with attention at a massive scale, representing the pinnacle of the pre-Transformer era of machine translation.1
 
