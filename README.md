@@ -5,8 +5,6 @@ This section traces the progression from advanced Recurrent Neural Network (RNN)
 * [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025) (Luong, et al., 2015) - A foundational paper that explores and simplifies different attention mechanisms for sequence-to-sequence models, providing a clear starting point for implementing attention on top of RNNs.
 [(Code Repo)](https://github.com/lmthang/nmt.hybrid)
 
-* Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation (Wu, et al., 2016) - Showcases the power of a deep LSTM network with attention at a massive scale, representing the pinnacle of the pre-Transformer era of machine translation.
-
 * [Attention Is All You Need](https://arxiv.org/pdf/1706.03762) (Vaswani, et al., 2017) - The revolutionary paper that introduced the Transformer architecture, abandoning recurrence entirely in favor of self-attention. This is the essential starting point for understanding modern LLMs [(Code Repo)](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/transformer.py)
 
 * [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805) (Devlin, et al., 2018) - Introduced the concept of pre-training a deep bidirectional Transformer using a Masked Language Model (MLM) objective, fundamentally changing the paradigm for transfer learning in NLP. [(Code Repo)](https://github.com/google-research/bert)
